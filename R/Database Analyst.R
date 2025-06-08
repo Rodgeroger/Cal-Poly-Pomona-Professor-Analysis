@@ -67,7 +67,7 @@ ggplot(reviews, aes(x = Thumbs_Up, y = Thumbs_Down)) +
        x = "Thumbs Up", y = "Thumbs Down") +
   theme_minimal()
 
-# Word Frequency from Comments (Optional)
+# Word Frequency from Comments
 library(tidytext)
 library(textdata)
 
