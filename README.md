@@ -29,7 +29,6 @@ This table will store the following data for each professor:
 This table stores individual reviews, linked to each professor by the foreign key, ```Professor_ID```:
 
 * ```Professor_ID```: Unique identifier for each professor.
-* ```Professor_Name```: Full name of the Professor.
 * ```Class_Name```: Class name for class student is reviewing
 * ```Department```: The department the professor belongs to
 * ```Quality```: The quality rating given by the student (1-5).
